@@ -27,3 +27,7 @@ az aks create \
     --vnet-subnet-id $SUBNET_ID \
     --generate-ssh-keys \
     --attach-acr satakeacr
+
+
+# やりたいことが詰まってるTips
+https://docs.microsoft.com/ja-jp/training/modules/cloud-native-build-basic-service/5-exercise-connect-express-js-postgresql

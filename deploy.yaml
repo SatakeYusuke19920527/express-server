@@ -21,7 +21,7 @@ spec:
         'beta.kubernetes.io/os': linux
       containers:
         - name: webapp
-          image: satakeacr.azurecr.io/express-server:v1
+          image: satakeacr.azurecr.io/express-server:v2
           ports:
             - containerPort: 8080
           resources:
